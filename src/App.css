@@ -1,3 +1,9 @@
+body{
+  background-color: royalblue;
+  padding-top: 100px;
+}
+
+
 .App {
   text-align: center;
 }
