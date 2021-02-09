@@ -32,7 +32,7 @@ class App extends React.Component {
         <div className="row">
           <div className="col-md-3">
             <a onClick={this.changeAvatar} className="changeAvatar" href="#">
-              Change Avatar
+              Change Details
             </a>
           </div>
         </div>
