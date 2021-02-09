@@ -6,11 +6,13 @@ import Card from "./components/card";
 class App extends React.Component {
   state = {
     avatarId: 28,
+    personName: "Jessica Jones",
   };
 
   changeAvatar = () => {
     this.setState({
       avatarId: 49,
+      personName: "Monica Hall",
     });
     console.log(this.state);
   };
@@ -22,7 +24,7 @@ class App extends React.Component {
           <Card name="Lijo M Loyid" job="Software Engineer" avatarId={52} />
           <Card name="James Smith" job="Pilot" avatarId={51} />
           <Card
-            name="Jessica Jones"
+            name={this.state.personName}
             job="Nurse"
             avatarId={this.state.avatarId}
           />
